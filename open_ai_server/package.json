@@ -1,0 +1,18 @@
+{
+  "name": "open_ai_server",
+  "version": "0.0.1",
+  "description": "Web server/api server for serving AI-generated data",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@rapPayne",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.2.1"
+  }
+}

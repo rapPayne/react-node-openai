@@ -1,0 +1,35 @@
+:root {
+  --dark1: black;
+  --light1: white;
+  --dark2: blue;
+  --light2: beige;
+  --darkQuestion: red;
+  --darkAnswer: green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  font-weight: bold;
+  border: 2px solid var(--dark1);
+  color: var(--dark1);
+  background-color: var(--light2);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 95%;
+  display: block;
+  border: 2px solid var(--dark1);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.question {
+  color: var(--darkQuestion);
+  font-weight: bold;
+}
+
+.answer {
+  color: var(--darkAnswer);
+}

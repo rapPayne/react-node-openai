@@ -1,0 +1,30 @@
+# my things
+.env
+.env.development
+.env.production
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node things
+**/node_modules
+
+# React things
+# dependencies
+**/.pnp
+.pnp.js
+
+# testing
+**/coverage
+
+# production
+**/build
+
+# misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Git things

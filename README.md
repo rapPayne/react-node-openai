@@ -1,13 +1,9 @@
+# Reading from the OpenAI service.
 
-# To run
-1. Sign up for an api key at http://openai.com
-2. Put that key in a `.env` file
+OpenAI requires a private key. If we put that in a browser app, everyone could see the key so we have to put it in a server-side app. Therefore, we've written this in two parts; [the client-side app](open_ai_client) and [the server-side app](open_ai_server).
 
-
-# Putting your key in a .env file
-Create a file called .env and make it look like this:
-```bash
-OPENAI_API_KEY=<Put your API KEY here>
-```
-Important: No white space at all on this line, especially around the `=` sign!
-
+## Tech features
+- OpenAI/ChatGPT
+- React
+- Node
+- Express
